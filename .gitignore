@@ -1,0 +1,4 @@
+.env
+test_text.txt
+__pycache__
+qdrant_data
