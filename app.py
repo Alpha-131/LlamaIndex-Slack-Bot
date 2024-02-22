@@ -109,17 +109,6 @@ def slack_challenge():
 @app.message()
 def reply(message, say):
     global PREVIOUS_NODE
-    # if message contains a "blocks" key
-    #   then look for a "block" with the type "rich text"
-    #       if you find it 
-    #       then look inside that block for an "elements" key
-    #           if you find it 
-    #               then examine each one of those for an "elements" key
-    #               if you find it
-    #                   then look inside each "element" for one with type "user"
-    #                   if you find it  
-    #                   and if that user matches the bot_user_id 
-    #                   then it's a message for the bot
     if message.get('blocks'):
         for block in message.get('blocks'):
             if block.get('type') == 'rich_text':
