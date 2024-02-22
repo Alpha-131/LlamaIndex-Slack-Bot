@@ -6,12 +6,12 @@ authors = ["Varun Pillai"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.13"
-llama-index = "^0.9.19"
+python = ">=3.10,<3.13"
+llama-index = "^0.10.11"
 python-dotenv = "^1.0.0"
 slack-bolt = "^1.18.1"
-flask = "^3.0.0"
-qdrant-client = "^1.7.0"
+flask = "^2.3.2"
+qdrant-client = "^1.7.3"
 gunicorn = "^21.2.0"
 
 
