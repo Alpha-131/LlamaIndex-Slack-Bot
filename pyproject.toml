@@ -6,7 +6,7 @@ authors = ["Varun Pillai"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.10,<3.12"
 llama-index = "^0.10.11"
 python-dotenv = "^1.0.0"
 slack-bolt = "^1.18.1"
